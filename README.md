@@ -1,6 +1,6 @@
 # Neural_Network_Charity_Analysis
 # Overview 
-The prupose of the analysis was to train a neural network for the Alphabet Soup charity analysis. 
+The purpose of the analysis was to train a neural network for the Alphabet Soup charity analysis. 
 #Results
 ## Data Preprocessing  
 First the charity_data.csv file was loaded into a Pandas DataFrame and performed data preprocessing tasks, including dropping the non-beneficial ID columns, converting categorical variables to numeric using one-hot encoding, and scaling the data.
@@ -9,7 +9,8 @@ First the charity_data.csv file was loaded into a Pandas DataFrame and performed
 Then the data was compiled and trained a deep learning neural network model using TensorFlow Keras. The model consisted of two hidden layers, each with 80 neurons and the rectified linear unit (ReLU) activation function, and an output layer with one neuron and the sigmoid activation function. The model was trained for 100 epochs using the binary cross-entropy loss function and the Adam optimization algorithm. Finally, the model was evaluated using the test data and calculated the loss function value and accuracy score.
 
 ![Visualize the value counts of CLASSIFICATION](https://github.com/aahudson/Neural_Network_Charity_Analysis/blob/main/Resources/Classification_Counts_Density.png)
-
+[First Attempt to Train Model](https://github.com/aahudson/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity.ipynb)
+[Optimized Model]( )
 # Summary 
 ## The accuracy test showed the following results: 
 268/268 - 1s - loss: 0.5648 - accuracy: 0.7285 - 637ms/epoch - 2ms/step
